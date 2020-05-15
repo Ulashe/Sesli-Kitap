@@ -22,7 +22,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "audio-book"
+    },
+    "android": {
+      "package": "audio-book"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
